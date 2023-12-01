@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My Todo List</h1>
+    <div id="todo-container">
+        <div id="input-container">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button type="button" id="add-btn" aria-label="Add task">+</button>
+        </div>
+        <ul id="task-list"></ul>
+        <p id="task-count">Total tasks: <span id="count">0</span></p>
+        <div id="filter-options">
+            <button type="button" class="filter-btn active" onclick="filterTasks('all')">All</button>
+            <button type="button" class="filter-btn" onclick="filterTasks('uncompleted')">Uncompleted</button>
+            <button type="button" class="filter-btn" onclick="filterTasks('completed')">Completed</button>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p>Created by <a href="https://github.com/BhuvneshKumarAnand" target="_blank" rel="noopener noreferrer">Bhuvnesh Kumar Anand</a> with 💟</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

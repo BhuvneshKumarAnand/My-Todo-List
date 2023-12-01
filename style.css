@@ -1,0 +1,154 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+/* ToDo List Container */
+
+#todo-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Input Container */
+
+#input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#add-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-btn:hover {
+    background-color: #555;
+}
+
+
+/* Task List Styles */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #333;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.task-checkbox:checked {
+    background-color: #e90e0e;
+    border: 2px solid #e90e0e;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+#task-count {
+    color: #999;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.delete-btn:hover {
+    color: #f00;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+
+/* Filter Options */
+
+#filter-options {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.filter-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: #999;
+    cursor: pointer;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.filter-btn:hover {
+    color: #444;
+}
+
+.filter-btn.active {
+    background-color: #ddd;
+}
+
+
+/* Footer Styles */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50vh;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
