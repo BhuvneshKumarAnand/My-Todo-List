@@ -1,6 +1,6 @@
 # My-Todo-List
 
-Hello there! 👋 Welcome to My ToDo List project. This is a simple ToDo list application built with vanilla JavaScript (means no plugins, no libraries, nothing.).
+Hello there! 👋 Welcome to My ToDo List project. This is a simple ToDo list application built with vanilla JavaScript (which means no plugins, no libraries, nothing.).
 
 ## Features
 
@@ -19,3 +19,7 @@ Hello there! 👋 Welcome to My ToDo List project. This is a simple ToDo list ap
 ## Getting Started
 
 To run the ToDo List, open the `index.html` file in your preferred web browser.
+
+## My project live at 
+
+https://bhuvneshkumaranand.github.io/My-Todo-List/
